@@ -106,7 +106,6 @@ header .icon {
   }
 
   header .content {
-    
     padding: .5rem 0;
     align-items: center;
   }
@@ -469,29 +468,29 @@ header .icon {
 
 /* Quotes Section */
 
-/* #quotes-section {
+#quotes-section {
   background-color: #f3f3f3;
-} */
+}
 
-/* #quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
-} */
+}
 
-/* #quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
-} */
+}
 
-/* #quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
-} */
+}
 
-/* @media only screen and (max-width: 760px) {
-  #quotes-section content {
+@media only screen and (max-width: 760px) {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
@@ -500,12 +499,12 @@ header .icon {
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
   }
-} */
+}
 
 /* Footer */
 
