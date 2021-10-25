@@ -28,13 +28,12 @@ html {
   padding: .1875rem .5rem .1875rem .1875rem;
 }
 
-/* .image-container {
-  overflow: hidden;
-} */
 
-/* .image-container img {
+.image-container img {
   display: block;
-} */
+  max-width:100%;
+  max-height:100%;
+}
 
 @media only screen and (max-width: 540px) {
   .main-content {
@@ -208,9 +207,6 @@ header .icon {
   }
 
   /* Sign Up Section */
-
-
-
 
   .banner {
     background-image: url(../images/banner-landingpage.jpg);
@@ -410,35 +406,36 @@ header .icon {
 
 /* Filters Section */
 
-/* #filters-section {
+#filters-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
-} */
+}
 
-/* #filters-section .content {
+ #filters-section .content {
   padding: 0 .625rem;
   margin-bottom: 5rem;
-} */
+} 
 
-/* #filters-section .content h2 {
+ #filters-section .content h2 {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
-} */
+} 
 
-/* #filters-section .content h3 {
+ #filters-section .content h3 {
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 300;
   color: white;
-} */
+} 
 
-/* #filters-section .images-container {
+#filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
-} */
+  display: flex;
+}
 
-/* @media only screen and (max-width: 760px) {
+ @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
@@ -446,7 +443,9 @@ header .icon {
   #filters-section .content {
     margin-bottom: 1rem;
   }
+} 
 
+@media only screen and (max-width: 540px) {
   #filters-section .content h2 {
     padding-bottom: .625rem;
     font-size: 1.125rem;
@@ -459,14 +458,14 @@ header .icon {
     line-height: 1.4;
   }
 
-  #filters-section .images-container {
+    #filters-section .images-container {
     padding: 0;
   }
 
-  #filters-section .extra {
+    #filters-section .extra {
     display: none;
   }
-} */
+}
 
 /* Quotes Section */
 
